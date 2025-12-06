@@ -2,10 +2,10 @@
   "name": "xeng16-vip-pro",
   "version": "1.0.0",
   "description": "Xeng16 ",
-  "main": "api.js",
+  "main": "xeng16.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node  api.js"
+    "start": "node  xeng16.js"
   },
   "dependencies": {
     "axios": "^1.6.8",
