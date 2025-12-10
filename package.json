@@ -1,16 +1,18 @@
 {
-  "name": "xeng16-vip-pro",
+  "name": "telegram-bot-webhook",
   "version": "1.0.0",
-  "description": "Xeng16 ",
-  "main": "xeng16.js",
-  "type": "commonjs",
+  "description": "Telegram bot using Webhook on Render",
+  "main": "bot.js",
   "scripts": {
-    "start": "node  xeng16.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "axios": "^1.6.8",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "fs-extra": "^11.2.0"
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.65.1",
+    "querystring": "^0.2.1",
+    "fs": "^0.0.1-security"
   }
 }
